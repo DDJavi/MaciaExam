@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragmenttext"
+        android:name="com.example.maciaexam.FragmentText"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        tools:layout="@layout/fragment_text" />
+
+
+    <fragment
+        android:id="@+id/fragmentview"
+        android:name="com.example.maciaexam.FragmentView"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_below="@+id/fragmenttext"
+        android:layout_marginTop="6dp"
+        tools:layout="@layout/fragment_view" />
+
+    <fragment
+        android:id="@+id/fragmentcolor"
+        android:name="com.example.maciaexam.FragmentColor"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/fragmentview"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="8dp"
+        tools:layout="@layout/fragment_color" />
+</RelativeLayout>

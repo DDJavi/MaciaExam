@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MaciaExam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editText">Insert Text</string>
+    <string name="changeText">Change text</string>
+    <string name="textView">hello</string>
+    <string name="colorBtn">Change Color</string>
+</resources>
